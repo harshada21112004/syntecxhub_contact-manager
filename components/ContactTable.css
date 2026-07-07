@@ -1,0 +1,58 @@
+.table-container {
+  margin-top: 30px;
+  background: white;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.08);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead {
+  background: #f3f6fd;
+}
+
+th {
+  padding: 18px;
+  text-align: left;
+  color: #1e3a8a;
+}
+
+td {
+  padding: 18px;
+  border-top: 1px solid #eee;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+}
+
+.view,
+.edit,
+.delete {
+  cursor: pointer;
+  font-size: 18px;
+  transition: .3s;
+}
+
+.view {
+  color: #2563eb;
+}
+
+.edit {
+  color: #16a34a;
+}
+
+.delete {
+  color: #dc2626;
+}
+
+.view:hover,
+.edit:hover,
+.delete:hover {
+  transform: scale(1.15);
+}

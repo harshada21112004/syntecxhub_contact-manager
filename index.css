@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+html,
+body,
+#root{
+  width:100%;
+  min-height:100vh;
+}
+
+body{
+  font-family:"Poppins",sans-serif;
+  background:#f4f7fc;
+}
+
+.light-theme{
+  background:#f4f7fc;
+  color:#111827;
+  min-height:100vh;
+}
+
+.dark-theme{
+  background:#111827;
+  color:white;
+  min-height:100vh;
+}
+
+/* Page background */
+.dark-theme .dashboard{
+  background:#111827;
+}
+
+/* Navbar */
+.dark-theme .navbar{
+  background:#1f2937;
+  color:white;
+}
+
+.dark-theme .navbar h2,
+.dark-theme .navbar p{
+  color:white;
+}
+
+/* Cards */
+.dark-theme .stat-card,
+.dark-theme .table-container,
+.dark-theme .search-box,
+.dark-theme .form-container{
+  background:#1f2937;
+  color:white;
+}
+
+/* Table */
+.dark-theme table{
+  color:white;
+}
+
+.dark-theme thead{
+  background:#374151;
+}
+
+.dark-theme tbody tr{
+  background:#1f2937;
+}
+
+/* Inputs */
+.dark-theme input,
+.dark-theme textarea,
+.dark-theme select{
+  background:#374151;
+  color:white;
+  border:1px solid #555;
+}
+
+.dark-theme input::placeholder,
+.dark-theme textarea::placeholder{
+  color:#cbd5e1;
+}
